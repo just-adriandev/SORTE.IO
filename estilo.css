@@ -17,24 +17,28 @@
 
 .collapsetext {
 
-position: fixed;
+position: absolute;
 font-size: large;
-border: outset 3px #01934a;
+border: outset 2px #01934a;
 margin-top: 5px;
 padding: 6px;
 width: 200px;
-
+z-index: 1;
+background: white;
 }
 
 .listcontacts {
     margin-left: 5 px;
     
+    
 }
 
 .sorteiomodes {
     margin-top: 10px;
+
 }
 
-.navbarbg2 {
-    background: #D9D9D9;
+.cardsstyle {
+    z-index: 0;   
 }
+
