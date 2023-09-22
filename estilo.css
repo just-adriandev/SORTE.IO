@@ -43,6 +43,50 @@ background: white;
 }
 
 .sorteiobody {
+    box-shadow: 6px 6px 6px #01934a;
     border: outset 2px #01934a;
+
 }
 
+h2 {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.inputfield {
+display: flex;
+padding: 20px 10px;
+gap: 50px;
+
+}
+
+.inputtitulo {
+display: flex;
+flex-direction: column;
+font-weight: bold;
+font-size: 20px;
+
+}
+
+.inputfield input {
+background-color: transparent;
+border: none;
+border-bottom: solid 2px #01934a;
+    
+}
+
+.button2 {
+    padding: 10px;
+    margin: 10px;
+    font-size: medium;
+    width: 50%;
+    font-weight: bold;
+}
+
+#result {
+font-weight: bold;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 10px;
+}
