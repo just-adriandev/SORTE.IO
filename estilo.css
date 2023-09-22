@@ -42,3 +42,7 @@ background: white;
     z-index: 0;   
 }
 
+.sorteiobody {
+    border: outset 2px #01934a;
+}
+
