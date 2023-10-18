@@ -28,14 +28,11 @@ background: white;
 }
 
 .listcontacts {
-    margin-left: 5 px;
-    
-    
+    margin-left: 5 px;    
 }
 
 .sorteiomodes {
     margin-top: 10px;
-
 }
 
 .cardsstyle {
@@ -45,20 +42,19 @@ background: white;
 .sorteiobody {
     box-shadow: 6px 6px 6px #01934a;
     border: outset 2px #01934a;
-
+    width: 80%;
+    height: 80%;
 }
 
 h2 {
     padding: 10px;
     margin: 10px;
-
 }
 
 .inputfield {
 display: flex;
-padding: 20px 10px;
-gap: 50px;
-
+padding: 10px 10px;
+gap: 20px;
 }
 
 .inputtitulo {
@@ -66,21 +62,28 @@ display: flex;
 flex-direction: column;
 font-weight: bold;
 font-size: 20px;
-
+width: 150px;
 }
 
 .inputfield input {
 background-color: transparent;
 border: none;
 border-bottom: solid 2px #01934a;
-    
 }
 
 .button2 {
     padding: 10px;
     margin: 10px;
     font-size: medium;
-    width: 50%;
+    width: 100px;
+    font-weight: bold;
+}
+
+.button23 {
+    padding: 10px;
+    margin: 10px;
+    font-size: medium;
+    width: 150px;
     font-weight: bold;
 }
 
@@ -89,4 +92,42 @@ font-weight: bold;
     font-size: xx-large;
     margin: 10px;
     padding: 10px;
+}
+
+.btnremove {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.dataname {
+    font-weight: bold;
+}
+
+#tabledatas {
+margin: 10px;
+padding: 10px;
+
+}
+
+.resultmix {
+        font-weight: bold;
+        font-size: xx-large;
+        margin: 10px;
+        padding: 10px;
+        width: 300px;
+    }
+
+        .mixsorteio {
+            width: 360px;
+        
+        }  
+
+
+@media (min-widht: 512px) and (max-widht: 1024)   {
+
+    .mixsorteio {
+        width: 800px;
+    
+    }    
 }
