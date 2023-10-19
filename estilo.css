@@ -33,6 +33,7 @@ background: white;
 
 .sorteiomodes {
     margin-top: 10px;
+    
 }
 
 .cardsstyle {
@@ -105,8 +106,8 @@ font-weight: bold;
 }
 
 #tabledatas {
-margin: 10px;
-padding: 10px;
+margin: 5px;
+padding: 5px;
 
 }
 
@@ -118,16 +119,17 @@ padding: 10px;
         width: 300px;
     }
 
-        .mixsorteio {
-            width: 360px;
-        
-        }  
+.cardsstyle2 {
+    box-shadow: 6px 6px 6px #01934a;
+    border: outset 2px #01934a;    
+}
 
+.link {
+    text-decoration: none; 
+    color: inherit; 
+}
 
-@media (min-widht: 512px) and (max-widht: 1024)   {
-
-    .mixsorteio {
-        width: 800px;
+.container {
     
-    }    
+    
 }
