@@ -1,50 +1,19 @@
+main {
+    margin-top: 30px;
+}
 
 .logo {
     align-items: start;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px 5px 20px;
-}
-
-.buttonnav {
-    border: #01934a;
-    color: white;
-    background-color: #01934a; 
-    font-size: medium;  
-    margin-right: 15px;
-    padding: 10px;
-}
-
-.collapsetext {
-
-position: absolute;
-font-size: large;
-border: outset 2px #01934a;
-margin-top: 5px;
-padding: 6px;
-width: 200px;
-z-index: 1;
-background: white;
-}
-
-.listcontacts {
-    margin-left: 5 px;    
-}
-
-.sorteiomodes {
-    margin-top: 10px;
-    
-}
-
-.cardsstyle {
-    z-index: 0;   
+    width: 60px;
+    height: 60px;
+    margin: 5px;
 }
 
 .sorteiobody {
-    box-shadow: 6px 6px 6px #01934a;
-    border: outset 2px #01934a;
-    width: 80%;
-    height: 80%;
+    box-shadow: 2px 2px 2px #01934a;
+    border: outset 1px #01934a;
+    width: 20%;
+    height: 20%;
 }
 
 h2 {
@@ -76,16 +45,13 @@ border-bottom: solid 2px #01934a;
     padding: 10px;
     margin: 10px;
     font-size: medium;
-    width: 100px;
+    width: 130px;
     font-weight: bold;
 }
 
-.button23 {
-    padding: 10px;
-    margin: 10px;
-    font-size: medium;
-    width: 150px;
-    font-weight: bold;
+.button2:hover {
+   color: white;
+   background-color: #01934a;
 }
 
 #result {
@@ -113,15 +79,14 @@ padding: 5px;
 
 .resultmix {
         font-weight: bold;
-        font-size: xx-large;
         margin: 10px;
         padding: 10px;
-        width: 300px;
+        box-sizing: border-box;
     }
 
 .cardsstyle2 {
-    box-shadow: 6px 6px 6px #01934a;
-    border: outset 2px #01934a;    
+    box-shadow: 2px 2px 2px #01934a;
+    border: outset 1px #01934a;    
 }
 
 .link {
@@ -129,7 +94,3 @@ padding: 5px;
     color: inherit; 
 }
 
-.container {
-    
-    
-}
